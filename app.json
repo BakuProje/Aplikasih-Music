@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Bakutify",
+    "slug": "Bakutify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "music-player",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.music.player",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.music.player"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a9cf83c6-12d0-45e2-9fb0-4adf40316074"
+      }
+    },
+    "owner": "kuzuroken"
+  }
+}
